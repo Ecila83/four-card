@@ -10,12 +10,12 @@ header {
   margin: auto;
   text-align: center;
 }
-header .title .title__un {
+header .title__un {
   font-weight: 400;
   font-size: 30px;
   margin: 0;
 }
-header .title .title__deux {
+header .title__deux {
   font-weight: 600;
   font-size: 31px;
   margin: 0;
@@ -58,6 +58,11 @@ header .title .title__deux {
 .row {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 480px) {
+  .row {
+    flex-direction: column;
+  }
 }
 .row .col {
   display: flex;
